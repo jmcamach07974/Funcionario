@@ -323,7 +323,7 @@ public class Vista extends javax.swing.JFrame {
         FUNCIONARIO funcio = new FUNCIONARIO();
 
         if (txtNumDoc.getText().equals("") || txtNombre.getText().equals("") || txtApellido.getText().equals("") || txtSexo.getText().equals("") || txtDire.getText().equals("") || txtTelef.getText().equals("") || txtFecNaci.getText().equals("")) {
-            JOptionPane.showMessageDialog(null, "Por favor complete los campos");
+            JOptionPane.showMessageDialog(null, "Por favor complete los campos faltantes");
         } else {
             
         

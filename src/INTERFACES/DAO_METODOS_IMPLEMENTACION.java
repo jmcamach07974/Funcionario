@@ -183,7 +183,7 @@ public class DAO_METODOS_IMPLEMENTACION implements DAO_METODOS {
 
             cs.execute();
 
-            JOptionPane.showMessageDialog(null, "Se Elimino Correctamente");
+            JOptionPane.showMessageDialog(null, "Se Elimino Correctamente los datos");
 
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "ERROR:" + e.toString());
